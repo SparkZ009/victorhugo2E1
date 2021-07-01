@@ -1,0 +1,118 @@
+table { position: absolute;
+text-align: center;
+margin: 0;
+}
+td { border-radius: 3px;
+width: 6vw;
+height: 3vw;
+font-size: 0.8em;
+}
+a { color: black;
+text-decoration: none;
+}
+body { margin: 0;
+}
+
+.titulo { font-size: 275%; 
+font-weight: bold;
+}
+.lantanoide { font-size: 200%;
+background: rgb(173, 206, 230)
+}
+.actinoide { font-size: 200%; 
+background: rgb(173, 206, 230)
+}
+
+.hidrogenio {background: rgb(226, 226, 226);
+border-radius: 7px;
+border: 1px solid black;
+}
+.metal {background: rgb(96, 163, 218);
+border-radius: 7px;
+border: 1px solid black
+}
+.nao-metal {background: rgb(232, 243, 75);
+border-radius: 7px;
+border: 1px solid black
+}
+.semimetal {background: rgb(241, 116, 32);
+border-radius: 7px;
+border: 1px solid black
+}
+.gas-nobre {background: rgb(40, 255, 40);
+border-radius: 7px;
+border: 1px solid black
+}
+
+.lantanoides {background:rgb(173, 206, 230);
+font-size: 75%; 
+border: black;
+border-radius: 3px;
+}
+.actinoides {background:rgb(173, 206, 230);
+font-size: 75% 
+}
+
+ul { list-style: none;
+margin: 0;
+padding: 0
+}
+
+.numero-atomico { text-align: left;
+font-size: 0.8em;
+font-weight: bold; 
+font-family: Arial;
+text-decoration-color: white;
+}
+.sigla { font-size: 1.2em;
+font-weight: bold; 
+font-family: Arial;
+text-decoration-color: white;
+}
+
+.hidrogenio:hover { opacity: 80%;
+}
+.metal:hover { opacity: 80%;
+}
+.metal:hover { opacity: 80%;
+}
+.nao-metal:hover { opacity: 80%;
+}
+.semimetal:hover { opacity: 80%;
+}
+.gas-nobre:hover { opacity: 80%;
+}
+
+nav { width: 450px;
+height: 75px;
+border-radius: 7px;
+background-color: rgb(146, 145, 145);
+border: 1px solid black;
+text-align: justify;
+font-weight: bold;
+font-family: 'Segoe UI';
+z-index: 2;
+position: absolute;
+left: 250px;
+top: 170px;
+}
+
+nav ul { position: relative;
+left: 90px;
+}
+nav ul li { display: inline-block;
+margin-top: 10px;
+}
+nav ul li a { width: 2px;
+height: 2px;
+margin: 3px;
+}
+
+.legenda { display: block;
+color: red;
+text-transform: uppercase;
+margin-right: 10px;
+position: relative;
+left: -80px;
+top: -70px;
+}

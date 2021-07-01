@@ -1,0 +1,81 @@
+body { background: url(https://www.portal-energia.com/wp-content/uploadsthumbs/hidrogenio-1.jpg);
+opacity: 80%;
+background-color: black;
+background-repeat: no-repeat;
+background-size: cover; 
+}
+
+.titulo { position: absolute;
+left: 0;
+font-weight: bold;
+font-family: Arial;
+font-size: 150%;
+text-decoration: none;
+color: black; 
+}
+.conteudo { text-align: justify;
+position: absolute;
+top: 60px;
+font-weight: none;
+font-family: Arial;
+font-size: 100% 
+}
+
+nav { background-color: rgb(219, 219, 219);
+border-radius: 7px; 
+width: 450px;
+height: 450px;
+opacity: 100%;
+position: absolute;
+z-index: -10;
+left: 32.5%;
+top: 75px;
+}
+
+.menu { list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+.menu li { float: left;
+}
+.menu li a { display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.menu li a:hover {
+background-color: #111;
+-moz-box-shadow: 1px 3px 10px 0 #ccc;
+-webkit-box-shadow: 0 3px 10px 0 #ccc;
+text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul { position: relative;
+top: 0;
+left: 0;
+background-color: #fff;
+z-index: 10;
+display: none;
+}
+
+.menu li:hover ul, .menu li.over ul { display: block;
+}
+
+.menu li ul li { border: 1px solid rgb(0, 0, 0);
+display: block;
+width: 100px;
+}
+
+.active { background-color: rgb(5, 145, 145)
+}
+
+.menu ul li img { width: 1075px;
+}
+
+ul li p { width: 375px;
+}
+    
